@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.navbar .titles {
+  width: fit-content;
+  margin: auto;
+  padding: 12px 0px;
+}
+
+.titles span {
+  margin: 0px 16px;
+  color: white;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.logo {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 6px;
+  left: 24px;
+}
+
+.icons {
+  position: absolute;
+  right: 24px;
+  top: 6px;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* End of Navigation Menu */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  margin: 0;
+}
+
+/* End of Video file */
+
+.dark {
+  color: #000;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.container .heading {
+  position: absolute;
+  width: 100%;
+  top: 128px;
+  left: 0;
+}
+
+.heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.page1 {
+  font-weight: 500;
+}
+
+.price {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.ps {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+/* End of Heading */
+
+.bottom {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.button {
+  width: fit-content;
+  padding: 16px 24px;
+  margin: auto;
+}
+
+.additional {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+.link {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.button-1 {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 264px;
+  height: 40px;
+  background-color: #f4f4f4;
+  opacity: 80%;
+  border-radius: 4px;
+  color: #000;
+  border: none;
+}
+
+.button-2 {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 264px;
+  height: 40px;
+  background-color: #171a20;
+  opacity: 65%;
+  border-radius: 4px;
+  color: white;
+  margin-left: 16px;
+  border: none;
+}
+
+/* End of Bottom */
+/* End of First Page */
+
+.second-page {
+  background-image: url(model-3-background.png);
+}
+
+/* End of Second Page */
+.third-page {
+  background-image: url(model-x-background.png);
+}
+
+/* End of Third Page */
+.fourth-page {
+  background-image: url(model-s-background.png);
+}
+
+/* End of Fourth Page */
+.fifth-page {
+  background-image: url(cybertruck-background.png);
+}
+
+/* End of Fifth Page */
+.sixth-page {
+  .learn-more-btn {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 4px;
+    color: white;
+    margin-left: 16px;
+    border: 2px solid white;
+  }
+}
+
+/* End of Sixth Page */
+.seventh-page {
+  background-image: url(solar-panels-background.png);
+}
+
+#underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+/* End of Seventh Page */
+.eight-page {
+  background-image: url(solar-roof-background.png);
+}
+
+/* End of Eight Page */
+.ninth-page {
+  background-image: url(power-wall-background.png);
+}
+
+/* End of Ninth Page */
+.tenth-page {
+  background-image: url(accessories-background.png);
+}
+
+.footer {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  height: fit-content;
+  width: 100vw;
+  font-size: 12px;
+  position: relative;
+}
+
+.shop-btn {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 264px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #000;
+  border: none;
+}
+
+.footer .sections {
+  padding: 25px;
+  width: fit-content;
+  margin: auto;
+}
+
+.footer span {
+  color: #d0d1d2;
+  padding: 8px;
+}
+
+/* End of Tenth Page */
